@@ -1,7 +1,11 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
 import { useDebounce } from 'react-use';
+<<<<<<< HEAD
 import Search from './components/Search'
+=======
+import Search from './components/search'
+>>>>>>> b09c35a39d2b200ddeb59a9acfaa100864d9c746
 import Spinner from './components/Spinner';
 import MovieCard from './components/MovieCard';
 import { getTrendingMovies, updateSearchCount } from './appwrite';
